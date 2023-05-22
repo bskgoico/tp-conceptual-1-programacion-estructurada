@@ -1,0 +1,32 @@
+Crea un programa que pida la edad del usuario y dependiendo el identifiar si la edad es la de un niño, un adolescente, un adulto o un anciano e imprimirlo por pantalla
+A su vez si el usuario no introduce un número mostrar "ERROR" por pantallla.
+
+
+BEBE 0-4
+NIÑO 5 13
+ADOLESCENTE 14 17
+ADULTO 18 74
+ANCIANO > 74
+
+int edad = 0;
+
+printf("Ingrese su edad: \n");
+scanf("%d",&edad);
+
+
+while (edad >= 0) {
+	switch(edad) {
+		case >0 and <=4:
+			printf("La edad ingresada es la de un bebe");
+		case >=5 and <=13:
+			printf("La edad ingresada es la de un niño");
+		case >14 and <=17:
+			printf("La edad ingresada es la de un adolescente");
+		case >=18 and <=74:
+			printf("La edad ingresada es la de un adulto");
+		case >74:
+			printf("La edad ingresada es de un anciano");
+
+
+	}
+}
